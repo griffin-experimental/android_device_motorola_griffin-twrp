@@ -5,7 +5,7 @@
 # mount point   fstype     device                       device2                  flags
 /system         ext4       /dev/block/bootdevice/by-name/system
 /system_image   emmc       /dev/block/bootdevice/by-name/system
-/vendor         squashfs   /dev/block/bootdevice/by-name/oem                     flags=wipeingui
+/vendor         squashfs   /dev/block/bootdevice/by-name/oem
 /vendor_image   emmc       /dev/block/bootdevice/by-name/oem                     flags=display="Vendor Image";backup=1;flashimg=1
 /data           f2fs       /dev/block/bootdevice/by-name/userdata                flags=encryptable=/dev/block/bootdevice/by-name/metadata
 /cache          ext4       /dev/block/bootdevice/by-name/cache
