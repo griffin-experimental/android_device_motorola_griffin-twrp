@@ -85,6 +85,7 @@ TW_DEFAULT_BRIGHTNESS := 80
 TW_INCLUDE_NTFS_3G := true
 TW_NO_USB_STORAGE := true
 #TW_USE_TOOLBOX    := true
+TW_EXCLUDE_TWRPAPP := true
 
 # Asian region languages
 TW_EXTRA_LANGUAGES := true
